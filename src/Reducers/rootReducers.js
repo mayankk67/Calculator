@@ -16,7 +16,8 @@ var rootReducer = (state=defaultState, {type,payload}) =>{
             return {expression:state.expression+payload};
         case 'EVAL':
             var res=eval(state.expression);
-            return {expression:res}; 
+            var res1=res.toString();
+            return {expression:res1}; 
         case 'CLEAR':
             return {expression:''};
         case 'BACKSPACE':
