@@ -6,6 +6,17 @@
   height: 40vmin;
 }
 
+body {
+  background-image: url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?cs=srgb&dl=art-background-close-up-1939485.jpg&fm=jpg");
+  background-color: #cccccc;
+ }
+
+ .baba{
+   background-color: black;
+   color: white;
+   padding: 2%;
+ }
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
